@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "WSMorseGestureRecognizer"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Gesture Recognizer for Morse Code tap events."
   s.description  = "MorseGestureRecognizer is an extension of UIGestureRecognizer that captures morse code taps and recognizes user-specified events."
   s.license      = "MIT"
   s.author             = { "William Schurman" => "wschurman@fb.com" }
-  s.homepage           = "http://wschurman.com"
+  s.homepage           = "https://github.com/wschurman/WSMorseGestureRecognizer"
   s.social_media_url   = "http://instagram.com/wschurman"
 
   s.platform     = :ios, "7.0"
