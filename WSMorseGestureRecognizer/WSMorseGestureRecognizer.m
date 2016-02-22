@@ -38,8 +38,6 @@ static const NSTimeInterval kDefaultWordParseDelayInterval = 1.5;
 
 @implementation WSMorseGestureRecognizer
 
-@synthesize delegate;
-
 - (instancetype)initWithTarget:(id)target action:(SEL)action {
     if (self = [super initWithTarget:target action:action]) {
         _letterHistory = @"";
